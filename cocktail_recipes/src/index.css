@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(to bottom, #290000, #3D0000, #520000, #660000); /* Your custom background color 
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-attachment: fixed;
+}
+
+
+.bg-custom {
+  background-color: #290000;
+}
+
+
+
+#title {
+  font-family: 'Snell Roundhand', cursive;
+  background: linear-gradient(to bottom, #cfc09f 27%, #ffecb3 40%, #3a2c0f 78%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  /* font-family: 'Playfair Display', serif; */
+  position: relative;
+  font-size: calc(3vw + .5rem);
+  margin: 0;
+  font-weight: 40;
+}
+
+#text {
+  font-family: 'Copperplate', fantasy;
+  color: #ffecb3;
+  text-shadow: #3a2c0f;
+}
+
+.card-body{
+  background-color:beige;
+}
